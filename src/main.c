@@ -39,6 +39,7 @@
 #include "hw.h"
 #include "video.h"
 #include "kbd.h"
+#include "sound.h"
 
 #include "bsp/rp2040/board.h"
 #include "tusb.h"
@@ -273,6 +274,9 @@ static void     core1_main()
          */
         video_init((uint32_t *)(umac_ram + umac_get_fb_offset()));
         core1_stage = 3;  /* video_init done — LED switches to fast blink */
+
+        sound_init();
+        umac_set_sound_cb(sound_buf_changed);
 
         printf("Enjoyable Mac times now begin:\n\n");
 

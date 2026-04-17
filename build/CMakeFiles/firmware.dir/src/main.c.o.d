@@ -105,6 +105,7 @@ CMakeFiles/firmware.dir/src/main.c.o: \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/video.h \
  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/kbd.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/sound.h \
  /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/board.h \
  /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.h \
  /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_common.h \

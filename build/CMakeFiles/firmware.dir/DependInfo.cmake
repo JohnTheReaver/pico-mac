@@ -158,6 +158,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/include"
   "/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include"
   "/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/include"
+  "/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pwm/include"
   )
 
 # The set of dependency files which are needed:
@@ -235,6 +236,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/hid.c" "CMakeFiles/firmware.dir/src/hid.c.o" "gcc" "CMakeFiles/firmware.dir/src/hid.c.o.d"
   "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/kbd.c" "CMakeFiles/firmware.dir/src/kbd.c.o" "gcc" "CMakeFiles/firmware.dir/src/kbd.c.o.d"
   "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/main.c" "CMakeFiles/firmware.dir/src/main.c.o" "gcc" "CMakeFiles/firmware.dir/src/main.c.o.d"
+  "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sound.c" "CMakeFiles/firmware.dir/src/sound.c.o" "gcc" "CMakeFiles/firmware.dir/src/sound.c.o.d"
   "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/video.c" "CMakeFiles/firmware.dir/src/video.c.o" "gcc" "CMakeFiles/firmware.dir/src/video.c.o.d"
   "/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp" "CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o" "gcc" "CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d"
   )

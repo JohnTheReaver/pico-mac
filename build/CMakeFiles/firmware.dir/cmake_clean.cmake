@@ -159,6 +159,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/firmware.dir/src/kbd.c.o.d"
   "CMakeFiles/firmware.dir/src/main.c.o"
   "CMakeFiles/firmware.dir/src/main.c.o.d"
+  "CMakeFiles/firmware.dir/src/sound.c.o"
+  "CMakeFiles/firmware.dir/src/sound.c.o.d"
   "CMakeFiles/firmware.dir/src/video.c.o"
   "CMakeFiles/firmware.dir/src/video.c.o.d"
   "firmware.elf"

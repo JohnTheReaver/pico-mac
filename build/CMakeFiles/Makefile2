@@ -2258,12 +2258,12 @@ CMakeFiles/firmware.dir/all: CMakeFiles/firmware_pio_video_pio_h.dir/all
 CMakeFiles/firmware.dir/all: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95 "Built target firmware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Built target firmware"
 .PHONY : CMakeFiles/firmware.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/firmware.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles 95
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles 96
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/firmware.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles 0
 .PHONY : CMakeFiles/firmware.dir/rule
@@ -2276,7 +2276,7 @@ firmware: CMakeFiles/firmware.dir/rule
 CMakeFiles/firmware.dir/codegen: CMakeFiles/prepare_umac.dir/all
 CMakeFiles/firmware.dir/codegen: CMakeFiles/firmware_pio_video_pio_h.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware.dir/build.make CMakeFiles/firmware.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95 "Finished codegen for target firmware"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96 "Finished codegen for target firmware"
 .PHONY : CMakeFiles/firmware.dir/codegen
 
 # clean rule for target.
@@ -2291,7 +2291,7 @@ CMakeFiles/firmware.dir/clean:
 CMakeFiles/prepare_umac.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prepare_umac.dir/build.make CMakeFiles/prepare_umac.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prepare_umac.dir/build.make CMakeFiles/prepare_umac.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=97 "Built target prepare_umac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=98 "Built target prepare_umac"
 .PHONY : CMakeFiles/prepare_umac.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2308,7 +2308,7 @@ prepare_umac: CMakeFiles/prepare_umac.dir/rule
 # codegen rule for target.
 CMakeFiles/prepare_umac.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/prepare_umac.dir/build.make CMakeFiles/prepare_umac.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=97 "Finished codegen for target prepare_umac"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=98 "Finished codegen for target prepare_umac"
 .PHONY : CMakeFiles/prepare_umac.dir/codegen
 
 # clean rule for target.
@@ -2323,7 +2323,7 @@ CMakeFiles/prepare_umac.dir/clean:
 CMakeFiles/firmware_pio_video_pio_h.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware_pio_video_pio_h.dir/build.make CMakeFiles/firmware_pio_video_pio_h.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware_pio_video_pio_h.dir/build.make CMakeFiles/firmware_pio_video_pio_h.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=96 "Built target firmware_pio_video_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=97 "Built target firmware_pio_video_pio_h"
 .PHONY : CMakeFiles/firmware_pio_video_pio_h.dir/all
 
 # Build rule for subdir invocation for target.
@@ -2340,7 +2340,7 @@ firmware_pio_video_pio_h: CMakeFiles/firmware_pio_video_pio_h.dir/rule
 # codegen rule for target.
 CMakeFiles/firmware_pio_video_pio_h.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/firmware_pio_video_pio_h.dir/build.make CMakeFiles/firmware_pio_video_pio_h.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=96 "Finished codegen for target firmware_pio_video_pio_h"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=97 "Finished codegen for target firmware_pio_video_pio_h"
 .PHONY : CMakeFiles/firmware_pio_video_pio_h.dir/codegen
 
 # clean rule for target.

@@ -129,6 +129,7 @@ if (TARGET tinyusb_device)
     src/video.c
     src/kbd.c
     src/hid.c
+    src/sound.c
     ${EXTRA_SD_SRC}
 
     ${UMAC_SOURCES}
@@ -151,6 +152,7 @@ if (TARGET tinyusb_device)
     tinyusb_board
     hardware_dma
     hardware_pio
+    hardware_pwm
     hardware_sync
     ${EXTRA_SD_LIB}
     )
