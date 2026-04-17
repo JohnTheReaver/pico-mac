@@ -62,6 +62,42 @@ static inline pio_sm_config pio_video_program_get_default_config(uint offset) {
     sm_config_set_sideset(&c, 2, false, false);
     return c;
 }
+#endif
+
+// -------------- //
+// pio_video_echo //
+// -------------- //
+
+#define pio_video_echo_wrap_target 0
+#define pio_video_echo_wrap 4
+#define pio_video_echo_pio_version 0
+
+static const uint16_t pio_video_echo_program_instructions[] = {
+            //     .wrap_target
+    0x20a0, //  0: wait   1 pin, 0
+    0xe01f, //  1: set    pins, 31
+    0x2020, //  2: wait   0 pin, 0
+    0xe000, //  3: set    pins, 0
+    0x0000, //  4: jmp    0
+            //     .wrap
+};
+
+#if !PICO_NO_HARDWARE
+static const struct pio_program pio_video_echo_program = {
+    .instructions = pio_video_echo_program_instructions,
+    .length = 5,
+    .origin = -1,
+    .pio_version = pio_video_echo_pio_version,
+#if PICO_PIO_VERSION > 0
+    .used_gpio_ranges = 0x0
+#endif
+};
+
+static inline pio_sm_config pio_video_echo_program_get_default_config(uint offset) {
+    pio_sm_config c = pio_get_default_sm_config();
+    sm_config_set_wrap(&c, offset + pio_video_echo_wrap_target, offset + pio_video_echo_wrap);
+    return c;
+}
 
 /* video_pin  : video data output (e.g. Red DAC MSB on Pimoroni VGA board)
  * vsync_pin  : VSYNC output
@@ -102,6 +138,30 @@ static inline void pio_video_program_init(PIO pio, uint sm, uint offset,
         uint32_t out_pins = (1u << video_pin) | (1u << vsync_pin) |
                             (1u << clk_pin)   | (1u << hsync_pin);
         pio_sm_set_pindirs_with_mask(pio, sm, out_pins, out_pins);
+        pio_sm_set_enabled(pio, sm, true);
+}
+/* White monochrome echo init:
+ * video_data_pin : the GPIO already driven by SM0 (read as input here)
+ * echo_base      : first of 5 consecutive GPIOs to drive for Green+Blue
+ *                  (e.g. GPIO 10 on the Pimoroni VGA Demo Base = G4..B3)
+ *
+ * SM1 watches video_data_pin via its IN pin mapping and mirrors the value
+ * to echo_base..echo_base+4 via SET, so all three DAC channels light up
+ * simultaneously for near-white output.  No TX FIFO or DMA is used.
+ */
+static inline void pio_video_echo_program_init(PIO pio, uint sm, uint offset,
+                                               uint video_data_pin,
+                                               uint echo_base) {
+        for (uint i = 0; i < 5; i++)
+                pio_gpio_init(pio, echo_base + i);
+        pio_sm_config c = pio_video_echo_program_get_default_config(offset);
+        sm_config_set_in_pins(&c, video_data_pin);
+        sm_config_set_set_pins(&c, echo_base, 5);
+        sm_config_set_clkdiv(&c, 1.0f);         /* full 250 MHz — minimise pixel-edge delay */
+        pio_sm_init(pio, sm, offset, &c);
+        /* Enable PIO output-drive on all 5 echo pins via pindirs (not SIO OE) */
+        uint32_t mask = 0x1fu << echo_base;
+        pio_sm_set_pindirs_with_mask(pio, sm, mask, mask);
         pio_sm_set_enabled(pio, sm, true);
 }
 

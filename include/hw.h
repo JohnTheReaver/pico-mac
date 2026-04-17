@@ -50,4 +50,10 @@
 #define GPIO_VID_CLK    GPIO_VID_CLK_PIN
 #define GPIO_VID_HS     GPIO_VID_HS_PIN
 
+/* First of 5 consecutive GPIOs driven by the echo SM for white monochrome.
+ * GPIO 10 = Green MSB (G4) on the Pimoroni VGA Demo Base; GPIOs 11-14 = B0-B3.
+ * GPIO 15 (Blue MSB) is reserved as the suppressed pixel-clock sideset pin.
+ */
+#define GPIO_VID_GREEN_ECHO_BASE  10
+
 #endif

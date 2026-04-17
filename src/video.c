@@ -329,6 +329,16 @@ void    video_init(uint32_t *framebuffer)
         /* Suppress the pixel clock pin so it does not produce noise on the
          * VGA colour channel it shares on the Pimoroni VGA Demo Base (Blue MSB). */
         gpio_set_outover(GPIO_VID_CLK, GPIO_OVERRIDE_LOW);
+
+        /* White monochrome: SM1 echoes the Red video signal (GPIO_VID_DATA) to
+         * the Green+Blue DAC channels (GPIO 10-14) so pixels appear white
+         * instead of red.  SM0's GPIO_OVERRIDE_INVERT is applied to the pad
+         * before SM1 samples it, so SM1 sees the already-correct polarity.
+         */
+        pio_video_echo_program_init(pio0, 1,
+                                    pio_add_program(pio0, &pio_video_echo_program),
+                                    GPIO_VID_DATA,
+                                    GPIO_VID_GREEN_ECHO_BASE);
         /* Highest drive strength (VGA is current-based, innit) */
         hw_write_masked(&padsbank0_hw->io[GPIO_VID_DATA],
                         PADS_BANK0_GPIO0_DRIVE_VALUE_12MA << PADS_BANK0_GPIO0_DRIVE_LSB,
