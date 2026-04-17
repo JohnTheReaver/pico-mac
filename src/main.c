@@ -72,6 +72,14 @@ static uint8_t umac_ram[RAM_SIZE];
 
 ////////////////////////////////////////////////////////////////////////////////
 
+/* Set by core 1 at each init stage so core 0 can show progress via LED:
+ *   0 = core 1 not yet started
+ *   1 = disc_setup done
+ *   2 = umac_init done
+ *   3 = video_init done (fast blink)
+ */
+static volatile int core1_stage = 0;
+
 static void     io_init()
 {
         gpio_init(GPIO_LED_PIN);
@@ -84,7 +92,13 @@ static void     poll_led_etc()
         static absolute_time_t last = 0;
         absolute_time_t now = get_absolute_time();
 
-        if (absolute_time_diff_us(last, now) > 500*1000) {
+        /* Blink rate encodes core 1 init stage:
+         *   stage 0-2: 2 Hz (slow) = still initialising
+         *   stage 3:   10 Hz (fast) = video_init complete
+         */
+        uint32_t period_us = (core1_stage >= 3) ? 100*1000 : 500*1000;
+
+        if (absolute_time_diff_us(last, now) > period_us) {
                 last = now;
 
                 led_on ^= 1;
@@ -249,12 +263,16 @@ static void     core1_main()
 
         printf("Core 1 started\n");
         disc_setup(discs);
+        core1_stage = 1;  /* disc_setup done */
 
         umac_init(umac_ram, (void *)umac_rom, discs);
+        core1_stage = 2;  /* umac_init done */
+
         /* Video runs on core 1, i.e. IRQs/DMA are unaffected by
          * core 0's USB activity.
          */
         video_init((uint32_t *)(umac_ram + umac_get_fb_offset()));
+        core1_stage = 3;  /* video_init done — LED switches to fast blink */
 
         printf("Enjoyable Mac times now begin:\n\n");
 

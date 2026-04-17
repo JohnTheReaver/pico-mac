@@ -316,13 +316,19 @@ void    video_init(uint32_t *framebuffer)
 
         pio_video_program_init(pio0, 0,
                                pio_add_program(pio0, &pio_video_program),
-                               GPIO_VID_DATA, /* Followed by HS, VS, CLK */
+                               GPIO_VID_DATA,
+                               GPIO_VID_VS,
+                               GPIO_VID_CLK,
+                               GPIO_VID_HS,
                                VIDEO_PCLK_MULT);
 
         /* Invert output pins:  HS/VS are active-low, also invert video! */
         gpio_set_outover(GPIO_VID_HS, GPIO_OVERRIDE_INVERT);
         gpio_set_outover(GPIO_VID_VS, GPIO_OVERRIDE_INVERT);
         gpio_set_outover(GPIO_VID_DATA, GPIO_OVERRIDE_INVERT);
+        /* Suppress the pixel clock pin so it does not produce noise on the
+         * VGA colour channel it shares on the Pimoroni VGA Demo Base (Blue MSB). */
+        gpio_set_outover(GPIO_VID_CLK, GPIO_OVERRIDE_LOW);
         /* Highest drive strength (VGA is current-based, innit) */
         hw_write_masked(&padsbank0_hw->io[GPIO_VID_DATA],
                         PADS_BANK0_GPIO0_DRIVE_VALUE_12MA << PADS_BANK0_GPIO0_DRIVE_LSB,

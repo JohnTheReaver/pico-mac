@@ -38,9 +38,16 @@ socket, which SPI it is driven by, and how it is wired.
 // Hardware Configuration of SPI "objects"
 // Note: multiple SD cards can be driven by one SPI if they use different slave
 // selects.
+//
+// Pimoroni Pico VGA Demo Base: SD pins are GPIO5(SCK), GPIO18(MOSI),
+// GPIO19(MISO), GPIO22(CS).  These are NOT hardware-SPI-compatible on the
+// RP2040.  When PIMORONI_VGA_BOARD is defined, the linker wraps my_spi_init
+// and spi_transfer to use bit-bang SPI (see src/sd_spi_pimoroni.c).
+// The hw_inst field is unused in that path but must still be set to a valid
+// value to avoid null-pointer assertions inside the library.
 static spi_t spis[] = {  // One for each SPI.
     {
-        .hw_inst = spi0,  // SPI component
+        .hw_inst = spi0,  // Used only for bare-Pico (non-Pimoroni) builds
         .miso_gpio = SD_RX, // GPIO number (not pin number)
         .mosi_gpio = SD_TX,
         .sck_gpio = SD_SCK,

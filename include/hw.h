@@ -29,9 +29,25 @@
 
 #define GPIO_LED_PIN    PICO_DEFAULT_LED_PIN
 
-#define GPIO_VID_DATA   GPIO_VID_BASE
-#define GPIO_VID_VS     (GPIO_VID_DATA + 1)
-#define GPIO_VID_CLK    (GPIO_VID_VS + 1)
-#define GPIO_VID_HS     (GPIO_VID_CLK + 1)
+/* Video pin assignment.
+ *
+ * Pins can be configured independently via CMake variables:
+ *   VIDEO_DATA_PIN, VIDEO_VS_PIN, VIDEO_CLK_PIN, VIDEO_HS_PIN
+ *
+ * If VIDEO_PIN is set (legacy/bare-Pico mode), all four pins are derived
+ * consecutively from that base: DATA=BASE, VS=BASE+1, CLK=BASE+2, HS=BASE+3.
+ *
+ * Pimoroni Pico VGA Demo Base defaults (set in CMakeLists.txt):
+ *   DATA=4 (Red DAC MSB), VS=17, CLK=15 (suppressed), HS=16
+ * NOTE: CLK pin output is suppressed via GPIO_OVERRIDE_LOW in video.c so
+ * the pixel clock does not appear as noise on the VGA Blue channel.
+ *
+ * CONSTRAINT: CLK and HS must be adjacent (CLK = HS - 1) because they share
+ * a 2-bit PIO sideset.
+ */
+#define GPIO_VID_DATA   GPIO_VID_DATA_PIN
+#define GPIO_VID_VS     GPIO_VID_VS_PIN
+#define GPIO_VID_CLK    GPIO_VID_CLK_PIN
+#define GPIO_VID_HS     GPIO_VID_HS_PIN
 
 #endif

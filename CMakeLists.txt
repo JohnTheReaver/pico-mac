@@ -30,13 +30,27 @@ cmake_minimum_required(VERSION 3.13)
 #
 
 option(USE_SD "Build in SD support" OFF)
-set(SD_TX 3 CACHE STRING "SD SPI TX pin")
-set(SD_RX 4 CACHE STRING "SD SPI RX pin")
-set(SD_SCK 2 CACHE STRING "SD SPI SCK pin")
-set(SD_CS 5 CACHE STRING "SD SPI CS pin")
-set(SD_MHZ 5 CACHE STRING "SD SPI speed in MHz")
+# SD card pins — defaults match the Pimoroni Pico VGA Demo Base.
+# The board's SD slot uses PIO SPI (GPIO5 is not a hardware SPI clock pin).
+# For a bare Pico with a breakout SD card use: -DSD_SCK=2 -DSD_TX=3 -DSD_RX=4 -DSD_CS=5
+set(SD_TX  18 CACHE STRING "SD SPI TX (MOSI) pin")
+set(SD_RX  19 CACHE STRING "SD SPI RX (MISO) pin")
+set(SD_SCK  5 CACHE STRING "SD SPI SCK pin")
+set(SD_CS  22 CACHE STRING "SD SPI CS pin")
+set(SD_MHZ  5 CACHE STRING "SD SPI speed in MHz")
 option(USE_VGA_RES "Video uses VGA (640x480) resolution" OFF)
-set(VIDEO_PIN 18 CACHE STRING "Video GPIO base pin (followed by VS, CLK, HS)")
+
+# Video output pins — defaults match the Pimoroni Pico VGA Demo Base.
+# DATA drives the Red DAC MSB (GPIO4) for monochrome red output.
+# HS=16 and VS=17 are hardwired to the VGA DB-15 connector on the board.
+# CLK=15 (Blue DAC MSB) is sideset-adjacent to HS; its output is suppressed.
+# For a bare Pico use: -DVIDEO_DATA_PIN=18 -DVIDEO_VS_PIN=19 -DVIDEO_CLK_PIN=20 -DVIDEO_HS_PIN=21
+set(VIDEO_DATA_PIN  4 CACHE STRING "Video data GPIO (Red MSB on Pimoroni VGA board)")
+set(VIDEO_VS_PIN   17 CACHE STRING "VSYNC GPIO")
+set(VIDEO_CLK_PIN  15 CACHE STRING "Pixel clock GPIO (suppressed on Pimoroni VGA board)")
+set(VIDEO_HS_PIN   16 CACHE STRING "HSYNC GPIO")
+# Legacy single-base variable kept for reference; not used when individual pins are set.
+set(VIDEO_PIN 18 CACHE STRING "Legacy: video GPIO base pin for bare-Pico wiring")
 
 # See below, -DMEMSIZE=<size in KB> will configure umac's memory size,
 # overriding defaults.
@@ -77,6 +91,8 @@ set(UMAC_SOURCES
 set(MEMSIZE 128 CACHE STRING "Memory size, in KB")
 set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -O3 -DPICO -DMUSASHI_CNF=\\\"../include/m68kconf.h\\\" -DUMAC_MEMSIZE=${MEMSIZE}")
 
+option(PIMORONI_VGA_BOARD "Build for Pimoroni Pico VGA Demo Base (enables bit-bang SPI for SD)" ON)
+
 if (USE_SD)
    add_compile_definitions(USE_SD=1)
    set(FF_DISABLE_RTC ${PICO_RP2350})  # RP2350 doesn't have RTC, so disable it
@@ -84,6 +100,14 @@ if (USE_SD)
    set(EXTRA_SD_SRC src/sd_hw_config.c)
    set(EXTRA_SD_LIB FatFs_SPI)
    add_compile_definitions(SD_TX=${SD_TX} SD_RX=${SD_RX} SD_SCK=${SD_SCK} SD_CS=${SD_CS} SD_MHZ=${SD_MHZ})
+
+   if (PIMORONI_VGA_BOARD)
+      # The Pimoroni board's SD pins are not hardware-SPI-compatible.
+      # Replace the library's my_spi_init / spi_transfer with bit-bang
+      # equivalents via GCC --wrap, without touching the library source.
+      list(APPEND EXTRA_SD_SRC src/sd_spi_pimoroni.c)
+      add_compile_definitions(PIMORONI_VGA_BOARD=1)
+   endif()
 endif()
 
 if (USE_VGA_RES)
@@ -94,7 +118,10 @@ else()
    add_compile_definitions(DISP_WIDTH=512)
    add_compile_definitions(DISP_HEIGHT=342)
 endif()
-add_compile_definitions(GPIO_VID_BASE=${VIDEO_PIN})
+add_compile_definitions(GPIO_VID_DATA_PIN=${VIDEO_DATA_PIN})
+add_compile_definitions(GPIO_VID_VS_PIN=${VIDEO_VS_PIN})
+add_compile_definitions(GPIO_VID_CLK_PIN=${VIDEO_CLK_PIN})
+add_compile_definitions(GPIO_VID_HS_PIN=${VIDEO_HS_PIN})
 
 if (TARGET tinyusb_device)
   add_executable(firmware
@@ -137,6 +164,14 @@ if (TARGET tinyusb_device)
     )
 
   pico_generate_pio_header(firmware ${CMAKE_CURRENT_LIST_DIR}/src/pio_video.pio)
+
+  if (USE_SD AND PIMORONI_VGA_BOARD)
+    # Redirect hardware-SPI calls to the bit-bang wrappers in sd_spi_pimoroni.c
+    target_link_options(firmware PRIVATE
+      -Wl,--wrap=my_spi_init
+      -Wl,--wrap=spi_transfer
+    )
+  endif()
 
   pico_enable_stdio_uart(firmware 1)
 

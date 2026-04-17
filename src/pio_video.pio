@@ -164,31 +164,49 @@ hfp_loop:    nop                                side 0
 
 
 % c-sdk {
+/* video_pin  : video data output (e.g. Red DAC MSB on Pimoroni VGA board)
+ * vsync_pin  : VSYNC output
+ * clk_pin    : pixel clock (sideset bit 0); MUST equal hsync_pin - 1
+ * hsync_pin  : HSYNC output (sideset bit 1)
+ *
+ * The four pins no longer need to be consecutive; OUT/SET/SIDESET bases are
+ * configured independently.  The only constraint is clk_pin == hsync_pin - 1
+ * because CLK and HSYNC share a 2-bit PIO sideset block.
+ */
 static inline void pio_video_program_init(PIO pio, uint sm, uint offset,
-                                          uint video_pin /* then VS, CLK, HS */,
+                                          uint video_pin,
+                                          uint vsync_pin,
+                                          uint clk_pin,
+                                          uint hsync_pin,
                                           float clk_div) {
-        /* Outputs are consecutive up from Video data */
-        uint vsync_pin = video_pin+1;
-        uint clk_pin = video_pin+2;
-        uint hsync_pin = video_pin+3;
-        /* Init GPIO & directions */
+        /* Connect GPIOs to this PIO */
         pio_gpio_init(pio, video_pin);
-        pio_gpio_init(pio, hsync_pin);
         pio_gpio_init(pio, vsync_pin);
         pio_gpio_init(pio, clk_pin);
-        // FIXME: BPP define
-        pio_sm_set_consecutive_pindirs(pio, sm, video_pin, 4, true /* out */);
+        pio_gpio_init(pio, hsync_pin);
 
         pio_sm_config c = pio_video_program_get_default_config(offset);
         sm_config_set_out_pins(&c, video_pin, 1);
         sm_config_set_set_pins(&c, vsync_pin, 1);
-        sm_config_set_sideset_pins(&c, clk_pin);        /* CLK + HS */
+        sm_config_set_sideset_pins(&c, clk_pin);        /* CLK (bit0) + HS (bit1) */
         /* Sideset bits are configured via .side_set directive above */
         sm_config_set_out_shift(&c, false /* OUT MSBs first */, true /* Autopull */, 32 /* bits */);
         sm_config_set_fifo_join(&c, PIO_FIFO_JOIN_TX);
         sm_config_set_clkdiv(&c, clk_div);
 
         pio_sm_init(pio, sm, offset, &c);
+
+        /* Set PIO output-enable for all four video pins.
+         * gpio_set_dir() writes to the SIO OE register which has NO EFFECT when
+         * a pin is in PIO function mode.  The pad output-enable in PIO mode is
+         * controlled by the PIO's own pindirs register, set here via
+         * pio_sm_set_pindirs_with_mask().  Without this the pads remain
+         * high-impedance even though the PIO is generating signals internally.
+         */
+        uint32_t out_pins = (1u << video_pin) | (1u << vsync_pin) |
+                            (1u << clk_pin)   | (1u << hsync_pin);
+        pio_sm_set_pindirs_with_mask(pio, sm, out_pins, out_pins);
+
         pio_sm_set_enabled(pio, sm, true);
 }
 %}

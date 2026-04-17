@@ -1,0 +1,5 @@
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm-install/pioasm/pioasm
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm-install/pioasm/pioasmTargets.cmake
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm-install/pioasm/pioasmConfig.cmake
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

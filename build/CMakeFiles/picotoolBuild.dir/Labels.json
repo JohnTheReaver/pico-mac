@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles/picotoolBuild"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles/picotoolBuild.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles/picotoolBuild-complete.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule"
+		},
+		{
+			"file" : "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"picotoolBuild"
+		],
+		"name" : "picotoolBuild"
+	}
+}
