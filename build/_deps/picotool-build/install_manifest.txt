@@ -1,7 +1,0 @@
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/picotool
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/picotoolTargets.cmake
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/picotoolTargets-release.cmake
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/picotoolConfig.cmake
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/picotoolConfigVersion.cmake
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/enc_bootloader.elf
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/_deps/picotool/enc_bootloader_mbedtls.elf

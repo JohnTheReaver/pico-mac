@@ -1,7 +1,0 @@
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/pioasm.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/edit_cache.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/rebuild_cache.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/list_install_components.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/install.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/install/local.dir
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pioasm/CMakeFiles/install/strip.dir
