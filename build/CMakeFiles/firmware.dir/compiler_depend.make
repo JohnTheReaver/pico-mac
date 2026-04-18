@@ -3678,6 +3678,7 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/incbin/umac-rom.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/hw.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/kbd.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/sound.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/tusb_config.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/video.h \
   /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/board.h \
@@ -3753,6 +3754,63 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+
+CMakeFiles/firmware.dir/src/sound.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sound.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/sound.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
 CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/video.c \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
@@ -3830,6 +3888,10 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
 
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/sound.h:
+
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/umac.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/main.c:
@@ -3861,6 +3923,8 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/cpu_cb.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/softfloat/softfloat.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pwm.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kops.h:
 
@@ -3967,6 +4031,8 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pwm/include/hardware/pwm.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c:
 
@@ -4375,6 +4441,8 @@ generated/pico_base/pico/config_autogen.h:
 generated/pico_base/pico/version.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/include/hardware/xip_cache.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sound.c:
 
 /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h:
 

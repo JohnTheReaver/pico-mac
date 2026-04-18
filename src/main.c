@@ -125,6 +125,28 @@ static void     poll_umac()
                 /* FIXME: Trigger this off actual vsync */
                 umac_vsync_event();
                 last_vsync = now;
+
+                /* Feed a new 370-byte buffer to the sound alarm only when the
+                 * content has changed since the previous VBL.  This prevents
+                 * replaying a stale or silence-filled buffer in a loop.
+                 *
+                 * The CPU VBL task writes fresh audio to the buffer opposite to
+                 * what pg2 indicates for hardware playback:
+                 *   pg2=0 → ROM fills SoundBuf1 at RAM_SIZE-0x018E
+                 *   pg2=1 → ROM fills SoundBuf2 at RAM_SIZE-0x0300
+                 */
+                {
+                        static uint8_t snd_snapshot[370];
+                        uint8_t via_ra = umac_get_via_ra();
+                        unsigned int snd_off = (via_ra & 0x08) ? (RAM_SIZE - 0x0300)
+                                                               : (RAM_SIZE - 0x018E);
+                        const uint8_t *new_buf = umac_ram + snd_off;
+                        if (memcmp(new_buf, snd_snapshot, 370) != 0) {
+                                memcpy(snd_snapshot, new_buf, 370);
+                                uint8_t vol = via_ra & 0x07;
+                                sound_buf_changed(new_buf, vol ? vol : 7, 1);
+                        }
+                }
         }
         if (p_1hz >= 1000000) {
                 umac_1hz_event();

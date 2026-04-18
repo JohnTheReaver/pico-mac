@@ -30,23 +30,26 @@
 
 static const uint8_t    *sound_buf     = NULL;
 static volatile uint8_t  sound_vol     = 7;
-static volatile int      sound_enabled = 0;
+static volatile int      sound_enabled = 1;
 static volatile unsigned int sound_pos = 0;
 static uint              pwm_slice;
+
 
 /* Called by the hardware alarm at ~22,254 Hz to advance one sample. */
 static int64_t __not_in_flash_func(sound_alarm_cb)(alarm_id_t id, void *user_data)
 {
         uint16_t level;
 
-        if (sound_enabled && sound_buf) {
+        if (sound_buf) {
                 uint8_t raw = sound_buf[sound_pos];
                 /* Scale by volume: 0 = mute, 7 = full.  Add 1 so vol=7 → 8/8. */
                 level = (uint16_t)raw * (sound_vol + 1u) / 8u;
-                if (++sound_pos >= SOUND_BUF_SIZE)
+                if (++sound_pos >= SOUND_BUF_SIZE) {
+                        sound_buf = NULL;   /* exhausted — silence until next buffer flip */
                         sound_pos = 0;
+                }
         } else {
-                level = PWM_WRAP / 2;   /* mid-rail = silence */
+                level = 0;    /* No active buffer — output ground (DC-coupled output) */
         }
 
         pwm_set_both_levels(pwm_slice, level, level);
@@ -84,8 +87,8 @@ void sound_init(void)
         pwm_config_set_wrap(&cfg, PWM_WRAP);
         pwm_init(pwm_slice, &cfg, true);
 
-        /* Start at mid-rail (silence). */
-        pwm_set_both_levels(pwm_slice, PWM_WRAP / 2, PWM_WRAP / 2);
+        /* Start at ground (DC-coupled output). */
+        pwm_set_both_levels(pwm_slice, 0, 0);
 
         /* Start the sample-rate timer alarm. */
         add_alarm_in_us(1000000u / SOUND_SAMPLE_RATE, sound_alarm_cb, NULL, true);
