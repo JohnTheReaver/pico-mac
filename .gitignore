@@ -1,0 +1,17 @@
+# CMake build output
+build/
+
+# ROM image — generate with: ./external/umac/main -r 'MacPlus v3.ROM' -W rom.bin
+rom.bin
+ram.bin
+
+# Original ROM file (copyright Apple; not redistributable)
+*.ROM
+*.rom
+
+# Generated binary headers — create with: xxd -i < rom.bin > incbin/umac-rom.h
+incbin/umac-rom.h
+incbin/umac-disc.h
+
+# macOS metadata
+.DS_Store

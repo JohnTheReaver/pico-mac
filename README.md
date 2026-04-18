@@ -1,6 +1,6 @@
 # Pico Micro Mac (pico-umac)
 
-v0.21 20 December 2024
+v0.22 — Pimoroni Pico VGA Demo Base port
 
 
 This project embeds the [umac Mac 128K
@@ -8,13 +8,25 @@ emulator](https://github.com/evansm7/umac) project into a Raspberry Pi
 Pico microcontroller.  At long last, the worst Macintosh in a cheap,
 portable form factor!
 
+This fork adds first-class support for the **[Pimoroni Pico VGA Demo
+Base](https://shop.pimoroni.com/products/pimoroni-pico-vga-demo-base)**,
+which provides a VGA connector, SD card slot, and audio jack in a
+convenient all-in-one board — no soldering or loose wires required.
+
 It has features, many features, the best features:
 
-   * Outputs VGA 640x480@60Hz, monochrome, using three resistors
+   * Outputs VGA 640x480@60Hz in **white monochrome** (all three RGB
+     channels driven together), using the built-in DAC resistors on the
+     Pimoroni board or three resistors on a bare Pico
+   * **Audio output** via the Pimoroni board's 3.5mm headphone jack (PWM
+     driven, 370-byte sound buffer at ~60Hz)
    * USB HID keyboard and mouse
    * Read-only disc image in flash (your creations are ephemeral, like life itself)
-   * Or, if you have a hard time letting go, support for rewritable
-     disc storage on an SPI-attached SD card
+   * Or, if you have a hard time letting go, support for **rewritable
+     disc storage on an SD card with persistent storage across
+     power cycles** — changes survive shutdown
+   * Up to two floppy disc images from SD simultaneously (`umac0.img`,
+     `umac1.img`)
    * Mac 128K by default, or you can make use of more of the Pico's
      memory and run as a _Mac 208K_
    * Since you now have more memory, you can splash out on more
@@ -79,6 +91,28 @@ From the top-level `pico-umac` directory:
 mkdir build
 (cd build ; PICO_SDK_PATH=/path/to/sdk cmake .. <options>)
 ```
+
+### Pimoroni Pico VGA Demo Base (recommended)
+
+The simplest way to run pico-mac with no soldering.  The board's SD slot
+uses GPIO5 as the SPI clock, which is not a hardware SPI pin on the RP2040;
+this build uses a bit-bang SPI wrapper transparently:
+
+```
+(cd build ; PICO_SDK_PATH=/path/to/sdk cmake .. \
+    -DUSE_SD=ON \
+    -DPIMORONI_VGA_BOARD=ON \
+    -DVIDEO_DATA_PIN=4 \
+    -DVIDEO_VS_PIN=17 \
+    -DVIDEO_CLK_PIN=15 \
+    -DVIDEO_HS_PIN=16)
+make -j4
+```
+
+Copy `build/firmware.uf2` to the Pico.  Place disc images on the SD card
+(see "Disc image" section below).
+
+### Bare Pico build
 
 Options are required if you want SD support, more than the default 128K of memory,
 higher resolution, to change pin configs, etc.:
@@ -151,11 +185,24 @@ about 1.3MB is free there), or on the SD card.  (I don't know what the
 HFS limits are.  But if you make a 50MB disc you're unlikely to fill
 it with software that actually works on the _Mac 128K_ :) )
 
-If using an SD card, use a FAT-formatted card and copy your disc image
-into _one_ of the following files in the root of the card:
+If using an SD card, use a FAT-formatted card and copy your disc image(s)
+into the root of the card using these naming conventions:
 
-   * `umac0.img`:  A normal read/write disc image
-   * `umac0ro.img`:  A read-only disc image
+   * `umac0.img` — disc 0 (boot drive), read/write
+   * `umac0ro.img` — disc 0 (boot drive), read-only (locked)
+   * `umac1.img` — disc 1 (second floppy), read/write
+   * `umac1ro.img` — disc 1 (second floppy), read-only
+
+Both discs can be present simultaneously; disc 1 mounts on the Mac desktop
+a second or two after the Finder loads.  Changes written to read/write disc
+images are flushed to the SD card and survive power cycles.
+
+To create a blank 800K writable floppy image (Mac will offer to initialise
+it on first boot):
+
+```
+dd if=/dev/zero of=/Volumes/NO\ NAME/umac1.img bs=512 count=1600
+```
 
 ## Putting it together, and building
 
@@ -231,6 +278,26 @@ without, or modify your adapter for a 3.3V supply.  Doing so, and
 finding an SD card that works well with SPI is out of scope of this
 doc.)
 
+### Pimoroni Pico VGA Demo Base pinout
+
+No extra wiring needed — VGA, audio, and SD are all on the board.
+Build with the cmake flags shown in the Pimoroni section above.
+
+| GPIO/pin     | Pico pin     | Usage on Pimoroni board |
+| ------------ | ------------ | ----------------------- |
+|   GP4        | 6            | Video data (Red DAC MSB)|
+|   GP15       | 20           | Pixel clock (suppressed)|
+|   GP16       | 21           | HSYNC                   |
+|   GP17       | 22           | VSYNC                   |
+|   GP5        | 7            | SD SCK                  |
+|   GP18       | 24           | SD MOSI                 |
+|   GP19       | 25           | SD MISO                 |
+|   GP22       | 29           | SD /CS                  |
+|   GP0        | 1            | UART0 TX (debug)        |
+|   GP1        | 2            | UART0 RX (debug)        |
+
+### Bare Pico pinout
+
 Pins are given for a RPi Pico board, but this will work on any RP2040
 board with 2MB+ flash as long as all required GPIOs are pinned out:
 
@@ -245,11 +312,8 @@ board with 2MB+ flash as long as all required GPIOs are pinned out:
 |   VBUS (5V)  | 40           | +5V supply     |
 |   Gnd        | 38           | Supply ground  |
 
-%: The video pins default here, but can be moved by building with the
-   `-DVIDEO_PIN` option.  This sets the position of the Video pin,
-   which is immediately followed by VSYNC, then a gap, then HSYNC.
-   For example, `-DVIDEO_PIN=20` configures the Video pin at 20,
-   VSYNC at 21, HSYNC at 23.
+%: The bare-Pico video pins can be moved by building with
+   `-DVIDEO_DATA_PIN=<gpio>` etc. (see CMakeLists.txt for all pin options).
 
 Method:
 
