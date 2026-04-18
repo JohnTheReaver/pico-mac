@@ -210,10 +210,16 @@ static int      disc_do_write(void *ctx, uint8_t *data, unsigned int offset, uns
 }
 
 static FIL discfp;
+static FIL discfp1;
 #endif
 
 static void     disc_setup(disc_descr_t discs[DISC_NUM_DRIVES])
 {
+        /* Always start with flash disc as fallback so boot is never blocked. */
+        discs[0].base = (void *)umac_disc;
+        discs[0].read_only = 1;
+        discs[0].size = sizeof(umac_disc);
+
 #if USE_SD
         char *disc0_name;
         const char *disc0_ro_name = "umac0ro.img";
@@ -226,17 +232,17 @@ static void     disc_setup(disc_descr_t discs[DISC_NUM_DRIVES])
         FRESULT fr = f_mount(&pSD->fatfs, pSD->pcName, 1);
         printf("  mount: %d\n", fr);
         if (fr != FR_OK) {
-                printf("  error mounting disc: %s (%d)\n", FRESULT_str(fr), fr);
-                goto no_sd;
+                printf("  SD not available (%d), using flash disc\n", fr);
+                return;
         }
 
         /* Look for a disc image */
         DIR di = {0};
         FILINFO fi = {0};
         fr = f_findfirst(&di, &fi, "/", disc0_pattern);
-        if (fr != FR_OK) {
-                printf("  Can't find images %s: %s (%d)\n", disc0_pattern, FRESULT_str(fr), fr);
-                goto no_sd;
+        if (fr != FR_OK || fi.fname[0] == '\0') {
+                printf("  No %s on SD, using flash disc\n", disc0_pattern);
+                return;
         }
         disc0_name = fi.fname;
         f_closedir(&di);
@@ -244,40 +250,49 @@ static void     disc_setup(disc_descr_t discs[DISC_NUM_DRIVES])
         int read_only = !strcmp(disc0_name, disc0_ro_name);
         printf("  Opening %s (R%c)\n", disc0_name, read_only ? 'O' : 'W');
 
-        /* Open image, set up disc info: */
+        /* Open image, set up disc info (overrides flash fallback): */
         fr = f_open(&discfp, disc0_name, FA_OPEN_EXISTING | FA_READ | FA_WRITE);
         if (fr != FR_OK && fr != FR_EXIST) {
-                printf("  *** Can't open %s: %s (%d)!\n", disc0_name, FRESULT_str(fr), fr);
-                goto no_sd;
-        } else {
-                printf("  Opened, size 0x%x\n", f_size(&discfp));
-                if (read_only)
-                        printf("  (disc is read-only)\n");
-                discs[0].base = 0; // Means use R/W ops
-                discs[0].read_only = read_only;
-                discs[0].size = f_size(&discfp);
-                discs[0].op_ctx = &discfp;
-                discs[0].op_read = disc_do_read;
-                discs[0].op_write = disc_do_write;
+                printf("  *** Can't open %s (%d), using flash disc\n", disc0_name, fr);
+                return;
         }
+        printf("  Opened, size 0x%x\n", f_size(&discfp));
+        if (read_only)
+                printf("  (disc is read-only)\n");
+        discs[0].base = 0; // Means use R/W ops
+        discs[0].read_only = read_only;
+        discs[0].size = f_size(&discfp);
+        discs[0].op_ctx = &discfp;
+        discs[0].op_read = disc_do_read;
+        discs[0].op_write = disc_do_write;
 
-        /* FIXME: Other files can be stored on SD too, such as logging
-         * and NVRAM storage.
-         *
-         * We could also implement a menu here to select an image,
-         * writing text to the framebuffer and checking kbd_queue_*()
-         * for user input.
-         */
-        return;
-
-no_sd:
+        /* Look for disc 1 image */
+        {
+                DIR di1 = {0};
+                FILINFO fi1 = {0};
+                FRESULT fr1 = f_findfirst(&di1, &fi1, "/", "umac1*.img");
+                if (fr1 == FR_OK && fi1.fname[0] != '\0') {
+                        char *disc1_name = fi1.fname;
+                        f_closedir(&di1);
+                        int ro1 = !strcmp(disc1_name, "umac1ro.img");
+                        printf("  Opening %s (R%c)\n", disc1_name, ro1 ? 'O' : 'W');
+                        fr1 = f_open(&discfp1, disc1_name, FA_OPEN_EXISTING | FA_READ | FA_WRITE);
+                        if (fr1 == FR_OK) {
+                                printf("  Disc1 opened, size 0x%x\n", f_size(&discfp1));
+                                discs[1].base = 0;
+                                discs[1].read_only = ro1;
+                                discs[1].size = f_size(&discfp1);
+                                discs[1].op_ctx = &discfp1;
+                                discs[1].op_read = disc_do_read;
+                                discs[1].op_write = disc_do_write;
+                        } else {
+                                printf("  *** Can't open %s (%d)\n", disc1_name, fr1);
+                        }
+                } else {
+                        printf("  No umac1*.img on SD\n");
+                }
+        }
 #endif
-        /* If we don't find (or look for) an SD-based image, attempt
-         * to use in-flash disc image:
-         */
-        discs[0].base = (void *)umac_disc;
-        discs[0].read_only = 1;
-        discs[0].size = sizeof(umac_disc);
 }
 
 static void     core1_main()

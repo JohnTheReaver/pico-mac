@@ -147,10 +147,38 @@ CMakeFiles/firmware.dir/src/sound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/src/sound.c.s"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sound.c -o CMakeFiles/firmware.dir/src/sound.c.s
 
+CMakeFiles/firmware.dir/src/sd_hw_config.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/src/sd_hw_config.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c
+CMakeFiles/firmware.dir/src/sd_hw_config.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/firmware.dir/src/sd_hw_config.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/src/sd_hw_config.c.o -MF CMakeFiles/firmware.dir/src/sd_hw_config.c.o.d -o CMakeFiles/firmware.dir/src/sd_hw_config.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c
+
+CMakeFiles/firmware.dir/src/sd_hw_config.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/src/sd_hw_config.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c > CMakeFiles/firmware.dir/src/sd_hw_config.c.i
+
+CMakeFiles/firmware.dir/src/sd_hw_config.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/src/sd_hw_config.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c -o CMakeFiles/firmware.dir/src/sd_hw_config.c.s
+
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o -MF CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o.d -o CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c
+
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c > CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.i
+
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c -o CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.s
+
 CMakeFiles/firmware.dir/external/umac/src/disc.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/src/disc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/disc.c
 CMakeFiles/firmware.dir/external/umac/src/disc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/firmware.dir/external/umac/src/disc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/firmware.dir/external/umac/src/disc.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/src/disc.c.o -MF CMakeFiles/firmware.dir/external/umac/src/disc.c.o.d -o CMakeFiles/firmware.dir/external/umac/src/disc.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/disc.c
 
 CMakeFiles/firmware.dir/external/umac/src/disc.c.i: cmake_force
@@ -164,7 +192,7 @@ CMakeFiles/firmware.dir/external/umac/src/disc.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/src/main.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/src/main.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/main.c
 CMakeFiles/firmware.dir/external/umac/src/main.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/firmware.dir/external/umac/src/main.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/firmware.dir/external/umac/src/main.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/src/main.c.o -MF CMakeFiles/firmware.dir/external/umac/src/main.c.o.d -o CMakeFiles/firmware.dir/external/umac/src/main.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/main.c
 
 CMakeFiles/firmware.dir/external/umac/src/main.c.i: cmake_force
@@ -178,7 +206,7 @@ CMakeFiles/firmware.dir/external/umac/src/main.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/src/rom.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/src/rom.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/rom.c
 CMakeFiles/firmware.dir/external/umac/src/rom.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/firmware.dir/external/umac/src/rom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/firmware.dir/external/umac/src/rom.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/src/rom.c.o -MF CMakeFiles/firmware.dir/external/umac/src/rom.c.o.d -o CMakeFiles/firmware.dir/external/umac/src/rom.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/rom.c
 
 CMakeFiles/firmware.dir/external/umac/src/rom.c.i: cmake_force
@@ -192,7 +220,7 @@ CMakeFiles/firmware.dir/external/umac/src/rom.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/src/scc.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/src/scc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/scc.c
 CMakeFiles/firmware.dir/external/umac/src/scc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/firmware.dir/external/umac/src/scc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/firmware.dir/external/umac/src/scc.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/src/scc.c.o -MF CMakeFiles/firmware.dir/external/umac/src/scc.c.o.d -o CMakeFiles/firmware.dir/external/umac/src/scc.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/scc.c
 
 CMakeFiles/firmware.dir/external/umac/src/scc.c.i: cmake_force
@@ -206,7 +234,7 @@ CMakeFiles/firmware.dir/external/umac/src/scc.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/src/via.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/src/via.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/via.c
 CMakeFiles/firmware.dir/external/umac/src/via.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/firmware.dir/external/umac/src/via.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/firmware.dir/external/umac/src/via.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/src/via.c.o -MF CMakeFiles/firmware.dir/external/umac/src/via.c.o.d -o CMakeFiles/firmware.dir/external/umac/src/via.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/src/via.c
 
 CMakeFiles/firmware.dir/external/umac/src/via.c.i: cmake_force
@@ -220,7 +248,7 @@ CMakeFiles/firmware.dir/external/umac/src/via.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kcpu.c
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o -MF CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o.d -o CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kcpu.c
 
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.i: cmake_force
@@ -234,7 +262,7 @@ CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kdasm.c
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o -MF CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o.d -o CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kdasm.c
 
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.i: cmake_force
@@ -248,7 +276,7 @@ CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kdasm.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kops.c
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o -MF CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o.d -o CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kops.c
 
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.i: cmake_force
@@ -262,7 +290,7 @@ CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kops.c.s: cmake_force
 CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/softfloat/softfloat.c
 CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o -MF CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o.d -o CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/softfloat/softfloat.c
 
 CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.i: cmake_force
@@ -276,7 +304,7 @@ CMakeFiles/firmware.dir/external/umac/external/Musashi/softfloat/softfloat.c.s: 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -290,7 +318,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -304,7 +332,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/platform.c.i: cmake_force
@@ -318,7 +346,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/panic.c.i: cmake_force
@@ -332,7 +360,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hardware_claim/claim.c.i: cmake_force
@@ -346,7 +374,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/hard
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -360,7 +388,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.i: cmake_force
@@ -374,7 +402,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -387,7 +415,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -401,7 +429,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -415,7 +443,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -429,7 +457,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -443,7 +471,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -457,7 +485,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -471,7 +499,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -485,7 +513,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -499,7 +527,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -513,7 +541,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -527,7 +555,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o: /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -541,7 +569,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/common/pico
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -555,7 +583,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -569,7 +597,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -583,7 +611,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -597,7 +625,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -611,7 +639,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c.i: cmake_force
@@ -625,7 +653,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -639,7 +667,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bootrom/bootrom_lock.c.i: cmake_force
@@ -653,7 +681,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c.i: cmake_force
@@ -667,7 +695,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/flash.c.i: cmake_force
@@ -681,7 +709,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -694,7 +722,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -708,7 +736,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -722,7 +750,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init.c.i: cmake_force
@@ -736,7 +764,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.i: cmake_force
@@ -750,7 +778,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_runtime_init/runtime_init_stack_guard.c.i: cmake_force
@@ -763,7 +791,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -776,7 +804,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_52) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_divider/divider_hardware.S.i: cmake_force
@@ -789,7 +817,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_53) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_aeabi_rp2040.S.i: cmake_force
@@ -803,7 +831,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_init_rom_rp2040.c.i: cmake_force
@@ -817,7 +845,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -830,7 +858,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_56) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.i: cmake_force
@@ -843,7 +871,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_57) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -856,7 +884,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_58) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_aeabi_rp2040.S.i: cmake_force
@@ -870,7 +898,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_init_rom_rp2040.c.i: cmake_force
@@ -884,7 +912,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -897,7 +925,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_61) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim_rp2040.S.i: cmake_force
@@ -911,7 +939,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/malloc.c.i: cmake_force
@@ -924,7 +952,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_63) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -938,7 +966,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/atomic.c.i: cmake_force
@@ -952,7 +980,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_65) "Building CXX object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building CXX object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp.i: cmake_force
@@ -966,7 +994,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.i: cmake_force
@@ -980,7 +1008,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -993,7 +1021,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_68) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building ASM object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.o   -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/crt0.S.i: cmake_force
@@ -1007,7 +1035,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_clib_interface/newlib_interface.c.i: cmake_force
@@ -1021,7 +1049,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_70) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -1035,7 +1063,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_71) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/stdio_uart.c.i: cmake_force
@@ -1049,7 +1077,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_72) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c.i: cmake_force
@@ -1063,7 +1091,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_73) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/hcd_rp2040.c.i: cmake_force
@@ -1077,7 +1105,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_74) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -1091,7 +1119,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_75) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.c.i: cmake_force
@@ -1105,7 +1133,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_76) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/hub.c.i: cmake_force
@@ -1119,7 +1147,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_77) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/cdc/cdc_host.c.i: cmake_force
@@ -1133,7 +1161,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_78) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.c.i: cmake_force
@@ -1147,7 +1175,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_79) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/msc/msc_host.c.i: cmake_force
@@ -1161,7 +1189,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_80) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/vendor/vendor_host.c.i: cmake_force
@@ -1175,7 +1203,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_81) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -1189,7 +1217,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_82) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -1203,7 +1231,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o: /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_83) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.o -c /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c.i: cmake_force
@@ -1217,7 +1245,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_84) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1231,7 +1259,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_85) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1245,7 +1273,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_86) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.i: cmake_force
@@ -1259,7 +1287,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_87) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.i: cmake_force
@@ -1273,7 +1301,7 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/firmware.dir/flags.make
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_88) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_90) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c
 
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.i: cmake_force
@@ -1284,6 +1312,216 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.s"
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.s
 
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_91) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_92) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_93) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_94) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_95) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_96) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_97) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_98) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_99) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_100) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_101) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_102) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.s
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_103) "Building C object CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o -MF CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o.d -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o -c /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c > CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.i
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c -o CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.s
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_104) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c > CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.i
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.s
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o: CMakeFiles/firmware.dir/flags.make
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o: CMakeFiles/firmware.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_105) "Building C object CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o -MF CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o.d -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o -c /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c > CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.i
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s"
+	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c -o CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.s
+
 # Object files for target firmware
 firmware_OBJECTS = \
 "CMakeFiles/firmware.dir/src/main.c.o" \
@@ -1291,6 +1529,8 @@ firmware_OBJECTS = \
 "CMakeFiles/firmware.dir/src/kbd.c.o" \
 "CMakeFiles/firmware.dir/src/hid.c.o" \
 "CMakeFiles/firmware.dir/src/sound.c.o" \
+"CMakeFiles/firmware.dir/src/sd_hw_config.c.o" \
+"CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o" \
 "CMakeFiles/firmware.dir/external/umac/src/disc.c.o" \
 "CMakeFiles/firmware.dir/external/umac/src/main.c.o" \
 "CMakeFiles/firmware.dir/external/umac/src/rom.c.o" \
@@ -1372,7 +1612,22 @@ firmware_OBJECTS = \
 "CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/flash.c.o" \
 "CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o" \
 "CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o" \
-"CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o"
+"CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o" \
+"CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o" \
+"CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o" \
+"CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o"
 
 # External object files for target firmware
 firmware_EXTERNAL_OBJECTS =
@@ -1382,6 +1637,8 @@ firmware.elf: CMakeFiles/firmware.dir/src/video.c.o
 firmware.elf: CMakeFiles/firmware.dir/src/kbd.c.o
 firmware.elf: CMakeFiles/firmware.dir/src/hid.c.o
 firmware.elf: CMakeFiles/firmware.dir/src/sound.c.o
+firmware.elf: CMakeFiles/firmware.dir/src/sd_hw_config.c.o
+firmware.elf: CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o
 firmware.elf: CMakeFiles/firmware.dir/external/umac/src/disc.c.o
 firmware.elf: CMakeFiles/firmware.dir/external/umac/src/main.c.o
 firmware.elf: CMakeFiles/firmware.dir/external/umac/src/rom.c.o
@@ -1464,11 +1721,26 @@ firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/s
 firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xip_cache/xip_cache.c.o
 firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/dma.c.o
 firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/pio.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o
+firmware.elf: CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o
+firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o
+firmware.elf: CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o
 firmware.elf: CMakeFiles/firmware.dir/build.make
 firmware.elf: pico-sdk/src/rp2040/boot_stage2/CMakeFiles/bs2_default_library.dir/bs2_default_padded_checksummed.S.o
 firmware.elf: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_crt0/rp2040/memmap_default.ld
 firmware.elf: CMakeFiles/firmware.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_89) "Linking CXX executable firmware.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_106) "Linking CXX executable firmware.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/firmware.dir/link.txt --verbose=$(VERBOSE)
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -h /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/firmware.elf > firmware.dis
 	/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/bin/arm-none-eabi-objdump -d /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/firmware.elf >> firmware.dis

@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/cmake_install.cmake")
+  include("/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/build/cmake_install.cmake")
 
 endif()
 

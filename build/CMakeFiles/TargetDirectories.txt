@@ -197,3 +197,5 @@
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/rebuild_cache.dir
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/docs/CMakeFiles/edit_cache.dir
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/docs/CMakeFiles/rebuild_cache.dir
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/build/CMakeFiles/edit_cache.dir
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/build/CMakeFiles/rebuild_cache.dir

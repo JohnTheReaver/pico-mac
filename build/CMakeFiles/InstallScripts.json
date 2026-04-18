@@ -96,7 +96,8 @@
 		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/src/rp2_common/pico_runtime/cmake_install.cmake",
 		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/src/rp2_common/pico_stdio/cmake_install.cmake",
 		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/src/rp2_common/pico_stdlib/cmake_install.cmake",
-		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/docs/cmake_install.cmake"
+		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/pico-sdk/docs/cmake_install.cmake",
+		"/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/build/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

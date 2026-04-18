@@ -172,6 +172,7 @@ if (TARGET tinyusb_device)
     target_link_options(firmware PRIVATE
       -Wl,--wrap=my_spi_init
       -Wl,--wrap=spi_transfer
+      -Wl,--wrap=spi_set_baudrate
     )
   endif()
 

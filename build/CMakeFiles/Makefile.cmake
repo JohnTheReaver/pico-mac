@@ -20,6 +20,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "pioasm-install/pioasm/pioasmConfigVersion.cmake"
   "pioasm-install/pioasm/pioasmTargets-release.cmake"
   "pioasm-install/pioasm/pioasmTargets.cmake"
+  "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/CMakeLists.txt"
   "/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/pico_sdk_import.cmake"
   "/Users/johnthereaver/Programming/pico-sdk/CMakeLists.txt"
   "/Users/johnthereaver/Programming/pico-sdk/cmake/Platform/PICO.cmake"
@@ -278,6 +279,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "pico-sdk/src/rp2_common/pico_stdio/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/src/rp2_common/pico_stdlib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "pico-sdk/docs/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "build/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:

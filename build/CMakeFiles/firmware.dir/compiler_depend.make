@@ -1553,6 +1553,100 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
 
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
+CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
 CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c.o: /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
@@ -3074,6 +3168,589 @@ CMakeFiles/firmware.dir/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h
 
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/math.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/inttypes.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/alloca.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/errno.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/limits.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/stdlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/errno.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/syslimits.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/limits.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/syslimits.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h
+
+CMakeFiles/firmware.dir/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_endian.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/endian.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/time.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_sigset.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timespec.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/sched.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/select.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/timespec.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/time.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/util.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_util/include/pico/util/datetime.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+
 CMakeFiles/firmware.dir/external/umac/external/Musashi/m68kcpu.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kcpu.c \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
@@ -3669,6 +4346,13 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
   generated/pico_base/pico/config_autogen.h \
   generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/disc.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/machw.h \
   /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/rom.h \
@@ -3712,6 +4396,7 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
@@ -3720,9 +4405,12 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pio.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
@@ -3732,6 +4420,7 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
@@ -3739,16 +4428,184 @@ CMakeFiles/firmware.dir/src/main.c.o: /Users/johnthereaver/Programming/Macintosh
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/include/hardware/clocks.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_pio/include/hardware/pio_instructions.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/include/pico/multicore.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdio_uart/include/pico/stdio_uart.h
+
+CMakeFiles/firmware.dir/src/sd_hw_config.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/strings.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_locale.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/string.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h
+
+CMakeFiles/firmware.dir/src/sd_spi_pimoroni.c.o: /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_ansi.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/assert.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/ieeefp.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/newlib.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_types.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/config.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/reent.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stdio.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stddef.h \
+  /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h \
+  generated/pico_base/pico/config_autogen.h \
+  generated/pico_base/pico/version.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h \
+  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/boards/include/boards/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/assert.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/config.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/error.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_base_headers/include/pico/types.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_stdlib_headers/include/pico/stdlib.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/mutex.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/sem.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/common/pico_time/include/pico/time.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/platform_defs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/addressmap.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dreq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/intctrl.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/interp.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/io_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/m0plus.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/nvic.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pads_bank0.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/sio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/uart.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2040/pico_platform/include/pico/platform/cpu_regs.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_base/include/hardware/address_mapped.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_irq/include/hardware/irq.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/include/hardware/sync.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/include/hardware/sync/spin_lock.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_timer/include/hardware/timer.h \
+  /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_compiler/include/pico/platform/compiler.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_panic/include/pico/platform/panic.h \
   /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_platform_sections/include/pico/platform/sections.h \
@@ -3890,6 +4747,8 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/pwm.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_hw_config.c:
+
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/include/sound.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/umac.h:
@@ -3907,8 +4766,6 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/fcntl.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/scc.h:
-
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/errno.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/b2_macos_util.h:
 
@@ -3930,13 +4787,43 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kfpu.c:
 
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/setjmp.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kcpu.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/rtc.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/glue.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/ff_stdio.h:
+
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/syslimits.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/limits.h:
 
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/setjmp.h:
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/errno.h:
 
-/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/m68kcpu.c:
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_spi.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/sd_spi_pimoroni.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/my_debug.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.c:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/diskio.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.c:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c:
 
@@ -3956,9 +4843,9 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_multicore/multicore.c:
 
-/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
-
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/float.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_float/float_math.c:
 
@@ -3974,6 +4861,8 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/cpu_defines.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/my_debug.c:
+
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/c++/15.2.1/arm-none-eabi/thumb/v6-m/nofp/bits/c++config.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_cxx_options/new_delete.cpp:
@@ -3988,6 +4877,8 @@ CMakeFiles/firmware.dir/src/video.c.o: /Users/johnthereaver/Programming/Macintos
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/times.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/demo_logging.c:
+
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/stat.h:
 
 pio_video.pio.h:
@@ -3995,6 +4886,8 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/src/common/boot_picoboot_headers/include/boot/picoboot.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_atomic/include/stdatomic.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/ff_stdio.c:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/xosc.c:
 
@@ -4025,6 +4918,22 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/watchdog.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_ticks/ticks.c:
+
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdatomic.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/spi.c:
+
+/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/string.h:
 
@@ -4076,10 +4985,6 @@ pio_video.pio.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/pll.h:
 
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdatomic.h:
-
-/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c:
-
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_clocks/clocks.c:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_boot_lock/boot_lock.c:
@@ -4116,7 +5021,11 @@ pio_video.pio.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_timeval.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffunicode.c:
+
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_pthreadtypes.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.c:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/lock.h:
 
@@ -4156,6 +5065,8 @@ pio_video.pio.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/usb.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/crc.h:
+
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_xosc/include/hardware/xosc.h:
@@ -4187,6 +5098,8 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_unique_id/include/pico/unique_id.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/src/hid.c:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/lock_core.h:
 
@@ -4221,6 +5134,10 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_resets/include/hardware/resets.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_gpio/include/hardware/gpio.h:
+
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/util.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/rtc.h:
 
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/hw/bsp/rp2040/family.c:
 
@@ -4318,6 +5235,8 @@ pio_video.pio.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/softfloat/softfloat-specialize:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h:
+
 /Users/johnthereaver/Programming/pico-sdk/src/common/pico_binary_info/include/pico/binary_info/defs.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdbool.h:
@@ -4348,6 +5267,8 @@ pio_video.pio.h:
 
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_common.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffsystem.c:
+
 /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/scb.h:
 
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_fifo.h:
@@ -4357,10 +5278,6 @@ pio_video.pio.h:
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/class/hid/hid_host.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/include/pico/critical_section.h:
-
-/Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/rtc.h:
-
-/Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/time.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdint.h:
 
@@ -4410,7 +5327,7 @@ generated/pico_base/pico/config_autogen.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_uart/include/hardware/uart.h:
 
-/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_sync/sync.c:
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h:
 
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/host/usbh.h:
 
@@ -4450,6 +5367,8 @@ generated/pico_base/pico/version.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_flash/include/pico/flash.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.c:
+
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/cdefs.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_flash/include/hardware/flash.h:
@@ -4484,11 +5403,17 @@ generated/pico_base/pico/version.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_time_adapter/include/pico/time_adapter.h:
 
+/Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/src/f_util.c:
+
 /Users/johnthereaver/Programming/pico-sdk/lib/tinyusb/src/common/tusb_debug.h:
 
 /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/external/Musashi/softfloat/mamesf.h:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_malloc/include/pico/malloc.h:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/rtc.c:
 
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_time.h:
 
@@ -4505,6 +5430,8 @@ generated/pico_base/pico/version.h:
 /Applications/ArmGNUToolchain/15.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/15.2.1/include/stdarg.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/pico_double/double_math.c:
+
+/Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_rtc/include/hardware/rtc.h:
 
 /Users/johnthereaver/Programming/pico-sdk/src/common/pico_sync/lock_core.c:
 

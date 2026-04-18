@@ -131,5 +131,19 @@ CMakeFiles/firmware.dir/src/main.c.o: \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/via.h \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/machw.h \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/umac/include/rom.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/f_util.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ff.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/ff15/source/ffconf.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/include/rtc.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/hw_config.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/sd_card.h \
+ /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/external/no-OS-FatFS-SD-SPI-RPi-Pico/FatFs_SPI/sd_driver/spi.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_dma/include/hardware/dma.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/dma.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/dma_debug.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /Users/johnthereaver/Programming/pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/incbin/umac-disc.h \
  /Users/johnthereaver/Programming/Macintosh-pico/pico-mac/incbin/umac-rom.h
