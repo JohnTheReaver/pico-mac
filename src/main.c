@@ -206,6 +206,7 @@ static int      disc_do_write(void *ctx, uint8_t *data, unsigned int offset, uns
                 printf("disc: f_write returned %d, read %u (of %u)\n", fr, did_write, len);
                 return -1;
         }
+        f_sync(fp);
         return 0;
 }
 
